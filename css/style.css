@@ -1,0 +1,941 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #1F2937;
+}
+
+/* ---- header ---- */
+
+.header {
+    background-color: #111827;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+   
+}
+
+.logo {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 27px;
+    color: #D97706;
+    text-decoration: none;
+}
+
+.logo span {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color:  #D97706;;
+    font-size: 16px;
+}
+
+.nav li a:hover {
+    color: #ffffff;
+}
+
+
+
+.contenu {
+    background-image: url("images/afro.png");
+    background-size: cover;
+    background-position: center center center ;
+    background-repeat: no-repeat;
+    width: 77%;
+    height: 500px;
+    border-radius: 25px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenu h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 1px;
+}
+.contenu h1 span{
+    color: #D97706;
+}
+
+.contenu p {
+    color: white;
+    font-size: 16px;
+    max-width: 550px;
+    margin-bottom: 55px;   
+    
+}
+
+
+.lesboutons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+/* ---- boutons ---- */
+
+.bouton1 {
+    background-color: #D97706;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;  
+   
+}
+
+.bouton1:hover {
+    background-color: white;
+    color: #92400E;
+    border: 2px solid #92400E;
+}
+
+.bouton2 {
+    background-color: white;
+    color:#92400E ;
+    padding: 12px 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bouton2:hover {
+    background-color:#92400E;
+    color: white;
+}
+
+.bouton3 {
+    background-color: #065F46;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 95px auto;
+    align-items: center;
+  
+    
+}
+
+.bouton3:hover {
+    background-color: #92400E;
+  
+}
+
+
+
+.titre {
+    text-align: center;
+    margin: 40px auto 10px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 23px;
+    color: #92400E;
+    margin-top: 80px;
+}
+
+.underlines {
+    width: 100px;
+    height: 4px;
+    background-color: #D97706;
+    border-radius: 2px;
+ margin:25px auto;
+}
+
+/* ---- section presentation ---- */
+
+.presentation {
+    
+    width: 90%;
+    margin: 0 auto 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FEF3C7;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.img-presentation {
+      background-image: url("images/groupe.png");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 300px;
+    margin: 1px auto;
+    border-radius: 20px;
+    background-color: #92400E;
+   
+    
+}
+
+.texte-presentation h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 27px;
+    color: #92400E;
+    text-align: center;
+     margin: 1px auto;
+     text-align: center;
+}
+
+.texte-presentation p {
+    color: #6B7280;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-top: 10px;
+     text-align: center;
+     margin-bottom: 35px;
+}
+.bouton5{
+     background-color: #D97706;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 18px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;  
+    margin: 468px;
+   
+    
+    
+}
+.bouton5:hover {
+    background-color: white;
+    color: #92400E;
+    border: 2px solid #92400E;
+}
+/* ---- cartes produits ---- */
+
+.pop1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+.produit {
+    width: 22%;
+    border: 2px dashed black;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: white;
+   
+    
+}
+.produitt-image {
+    background-image: url("images/femme.png");
+    background-size: cover;
+    background-position: center center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+}
+.produit-image {
+
+    background-image: url("images/homme.png");
+    background-size: cover;
+    background-position: center center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+}
+
+.produittt-image {
+
+    background-image: url("images/artisanal.png");
+    background-size: cover;
+    background-position: center center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+}
+
+.produitttt-image {
+
+    background-image: url("images/unisexe.png");
+    background-size: cover;
+    background-position: center center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+}
+.pop2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    width: 100%;
+    margin: 0 auto 50px;
+}
+.produittttt-image {
+
+    background-image: url("images/chemise.png");
+    background-size: cover;
+    background-position: center center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+}
+.produitttttt-image {
+
+    background-image: url("images/sandale.png");
+    background-size: cover;
+    background-position: center center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+
+}
+.produittttttt-image {
+
+    background-image: url("images/accessoire.png");
+    background-size: cover;
+    background-position: center center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+
+}
+.produitttttttt-image {
+
+    background-image: url("images/jupe.png");
+    background-size: cover;
+    background-position: center center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+
+}
+.produit-texte {
+    padding: 10px;
+}
+
+.produit-texte h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.produit-texte .pro {
+    font-size: 15px;
+    color: #6B7280;
+    margin-bottom: 6px;
+}
+
+.produit-texte p {
+    font-size: 13px;
+    color: #6B7280;
+    margin-bottom: 10px;
+}
+
+.produit-texte .prix {
+    font-size: 16px;
+    font-weight: bold;
+    color: #D97706;
+    margin-bottom: 20px;
+}
+
+/* ---- section avantages ---- */
+.titre nous{
+    font-size: 25px;
+    color: #D97706;
+}
+.underlines {
+    width: 100px;
+    height: 4px;
+    background-color: #D97706;
+    border-radius: 2px;
+ margin-top: 15px;
+ margin-bottom: 55px;
+}
+.banniere{
+color: #92400E;
+text-align: center;
+margin: 15px auto;
+}
+
+/* ---- footer ---- */
+/* .c{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    flex-direction: column;
+    
+
+}
+.cc{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+    
+} */
+.souligne{
+    color: #6B7280;
+    
+      width: 80%;
+    height: 2px;
+    background-color: #6B7280;
+    border-radius: 2px;
+ margin:25px auto;
+}
+.notresens {
+    background-color: #111827;
+    padding: 5px;
+    text-align: center;
+    margin: 25px auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+     margin: 0 auto;
+     
+    
+     
+}
+
+.box-notresens {
+    width: 5px;
+    min-width: 200px;
+    border: 2px dotted #D97706 ;
+    border-radius: 50%;
+    padding: 25px 15px;
+   
+}
+
+.box-notresens.icone {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.box-notresens h3 {
+    color: #D97706;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.box-notresens p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.82rem;
+    line-height: 1.5;
+}
+
+.lereste {
+    background-color: #111827;
+    padding: 5px;
+    text-align: center;
+    margin: 25px auto;
+    
+  
+}
+.footer {
+    background-color: #111827;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    width: 70%;
+    margin: 40px auto;
+    height: 500px;
+    
+}
+
+.footer-bloc h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #D97706;
+    font-size: 25px;
+    margin: 25px auto;
+   text-align: center;
+    width: 60%;
+    
+}
+.footer2{
+    color: #6B7280;
+    margin-top: 20px;
+  
+    
+}
+
+.footer-bloc p,
+.footer-bloc li {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    list-style: none;
+     margin: 5px auto;
+    
+   
+   
+
+}
+
+
+.footer-bloc a {
+    border: 2px solid white;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+        display: flex;
+    justify-content: space-around;
+    width: 150px;
+    border-radius: 30px;
+}
+.ab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.b{
+    width: 50%;
+       display: flex;
+    justify-content: space-around;
+    
+}
+.bb{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.footer-bloc a:hover {
+    color: #D97706;
+}
+
+.footer-dernier{
+    /* background-color: #111827; */
+    /* text-align: center; */
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    margin-top: 250px;
+    display: flex;
+ justify-content: center;
+ /* align-items: center; */
+
+}
+
+/* ---- cartes collections ---- */
+
+
+.grille-collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    width: 90%;
+    margin: 0 auto 50px;
+}
+
+.carte-collection {
+    width: 30%;
+    min-width: 250px;
+    border: 2px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.collection-image {
+    background-image: url("images/collection\ homme.png");
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    background-color: #92400E;
+}
+
+.collection-imagee {
+    background-image: url("images/collectionfemme.png");
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    background-color: #92400E;
+}
+
+.collection-imageee {
+    background-image: url("images/collectionenfant.png");
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    background-color: #92400E;
+}
+
+.collection-imageeee {
+    background-image: url("images/accessoire.png");
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    background-color: #92400E;
+}
+
+.collection-imageeeee {
+    background-image: url("images/nouveaute.png");
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    background-color: #92400E;
+}
+.collection-imageeeeee {
+    background-image: url("images/homme.png");
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    background-color: #92400E;
+}
+
+.collection-texte {
+    padding: 15px;
+}
+
+.collection-texte h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #92400E;
+}
+
+.collection-texte p {
+    font-size: 0.82rem;
+    color: #6B7280;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+.footer-bass{
+     margin-top: 250px;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ color:#1F2937;
+ text-align: center;
+}
+
+/* ---- page a propos ---- */
+
+.bloc {
+    width: 25%;
+    margin: 0 auto 25px;
+    background-color: #FEF3C7;
+    margin-top: 25px;
+    border-radius: 50%;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.lestrois{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    width: 100%;
+    margin: 0 auto 50px;
+    border-radius: 50%;
+
+}
+.a{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+    
+}
+.aa{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+   
+    
+}
+.bloc h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 20px;
+    color: #92400E;
+    margin-bottom: 12px;
+    text-align: center;
+   
+}
+
+.bloc p {
+    color: #1F2937;
+   font-size: 15px;
+}
+
+
+
+.grille-valeurs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto 50px;
+
+}
+
+.box-valeur {
+    flex: 1;
+    min-width: 200px;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 95px;
+  
+  
+}
+
+
+
+.box-valeur h3 {
+    color: #92400E;
+    margin-bottom: 8px;
+}
+
+.box-valeur p {
+    font-size: 15px;
+    color: #6B7280;
+    line-height: 1.5;
+}
+
+/* ---- formulaire ---- */
+
+.form-box {
+    width: 90%;
+    margin: 0 auto 50px;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 35px;
+    background-color: #FEF3C7;
+}
+.titre-section{
+    color: #92400E;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.groupee{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 25px;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.groupe{
+    display: flex;
+    justify-content: center;
+  margin-bottom: 10px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.bouton11{
+   
+    background-color: #D97706;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;  
+    width: 25%;
+    margin-bottom: 25px;
+    
+
+
+}
+.bouton11:hover {
+    background-color: white;
+    color: #92400E;
+    border: 2px solid #92400E;
+}
+
+/* ---- banniere pages internes ---- */
+
+.nous {
+    width: 70%;
+    height: 250px;
+    background-color: #111827;
+    border-radius: 35px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nous h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #92400E;
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+
+.nous p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap');
+
+/* ---- centrer un bouton ---- */
+
+.centre {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ================================
+   responsive tablette
+================================ */
+
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 20px;
+    }
+
+    .nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contenu {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .contenu h1 {
+        font-size: 1.6rem;
+    }
+
+    .carte {
+        width: 45%;
+    }
+
+    .carte-collection {
+        width: 45%;
+    }
+
+    .box-notresens {
+        width: 40%;
+    }
+
+    .form-box {
+        width: 90%;
+    }
+}
+ 
+/* ================================
+   responsive telephone
+================================ */
+
+@media (max-width: 480px) {
+
+    .contenu h1 {
+        font-size: 1.3rem;
+    }
+
+    .carte {
+        width: 100%;
+    }
+
+    .carte-collection {
+        width: 100%;
+    }
+
+    .box-notresens {
+        width: 100%;
+    }
+
+    .box-valeur {
+        width: 100%;
+    }
+
+    .presentation {
+        flex-direction: column;
+    }
+
+    .img-presentation {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+}
